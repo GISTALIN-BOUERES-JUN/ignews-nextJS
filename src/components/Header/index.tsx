@@ -1,3 +1,5 @@
+import React from 'react';
+import { SingInButton } from '../SingInButton';
 import styles from './styles.module.scss';
 
 
@@ -13,6 +15,7 @@ export function Header() {
                     <a>Posts</a>
 
                 </nav>
+                <SingInButton />
             </div>
 
         </header>
