@@ -11,7 +11,7 @@ export async function saveSubscription(
 ) {
     //search user inside Faunadb
 
-    console.log(subscriptionId, customerId);
+    // console.log(subscriptionId, customerId);
 
     const userRef = await fauna.query(
         q.Select(

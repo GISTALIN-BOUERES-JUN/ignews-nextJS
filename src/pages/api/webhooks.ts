@@ -70,7 +70,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
 
                     case 'checkout.session.completed':
-                        console.log('Evento recebido')
+                        // console.log('Evento recebido')
 
 
                         const checkoutSession = event.data.object as Stripe.Checkout.Session
