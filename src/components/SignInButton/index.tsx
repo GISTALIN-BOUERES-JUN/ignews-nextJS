@@ -4,13 +4,13 @@ import { FiX } from 'react-icons/fi'
 import { signIn, signOut, useSession } from 'next-auth/client'
 
 
-export function SingInButton() {
+export function SignInButton() {
 
     const [session] = useSession();
     return session ? (
         <button
             type="button"
-            className={styles.singInButton}
+            className={styles.signInButton}
             onClick={() => signOut()}
 
         >
@@ -24,7 +24,7 @@ export function SingInButton() {
 
         <button
             type="button"
-            className={styles.singInButton}
+            className={styles.signInButton}
             onClick={() => { signIn('github') }}
 
         >

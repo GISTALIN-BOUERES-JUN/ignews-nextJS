@@ -1,5 +1,5 @@
 import React from 'react';
-import { SingInButton } from '../SingInButton';
+import { SignInButton } from '../SignInButton';
 import styles from './styles.module.scss';
 import { ActiveLink } from '../ActiveLink';
 
@@ -22,7 +22,7 @@ export function Header() {
                     </ActiveLink>
 
                 </nav>
-                <SingInButton />
+                <SignInButton />
             </div>
 
         </header>
